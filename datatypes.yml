@@ -1,0 +1,39 @@
+# 3 WAYS OF REPRESENTING STRING VARIABLES -
+
+myself: Arunesh Prasad # yaha pe Arunesh Prasad is the variable
+fruit: "apple" # yaha pe apple is a variable                    
+job:  'SWE'  # yaha pe SWE is a variable 
+---
+
+bio: | 
+  how are you
+  I am Fine 
+
+
+# WRITE A SINGLE LINED SENTENCE USING MULTIPLE LINES IN EDITOR
+message: >
+  this will
+  all come in a  
+  single line
+
+singleline: One line me ayega ye message 
+
+singlelinemsg: !!str One line me ayega ye message  #iska type string ho jayega 
+
+number: 1241
+boolean: y #yes, y, Y sab true ke synonyms hain || similarly n, N, false, False, False 
+marks: 85.5
+
+#assign variables and also specify the type
+zero: !!int 0 #int type ho jayega 
+positiveNum: !!int 45
+negativeNum: !!int -45
+ 
+# binaryNum: !!int 0b11001
+hexa: !!int 0x45
+# commaValue: !!int +540_000 
+
+
+#date and time 
+date: !!timestamp 2023-12-14
+nullkey: !!null NULL 
