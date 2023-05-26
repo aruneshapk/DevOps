@@ -1,0 +1,8 @@
+---
+School:
+- name: dps
+  principal: someone
+  students:
+  - rno: 12
+    name: Arunesh Prasad
+    marks: 67
